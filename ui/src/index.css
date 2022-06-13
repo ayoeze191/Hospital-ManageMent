@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Professions .swiper-pagination .swiper-pagination-bullet{
+    
+    
+}
+@media screen and (min-width:768px) {
+    .Professions .swiper-pagination .swiper-pagination-bullet {
+        width: 3rem  !important;
+        border-radius: 0 !important;
+    }
+}
+
+
+.Professions .swiper-pagination .swiper-pagination-bullet-active{
+    @apply bg-gradient-to-bl
+}
+.Professions .swiper-pagination{
+        /* margin-top: 30px; */
+        position: relative;
+        order: 2;
+        margin: 0 auto;
+        cursor: pointer;
+}
+.Professions .swiper-container{
+    width: 100%;
+    max-width: 800px;
+    display: flex;  
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.Professions  .swiper-wrapper {
+    display: flex;
+    /* gap: 2rem; */
+}
+
+.specialities  {
+    box-shadow: 0px  5px 10px 0.02px rgb(104, 100, 100);
+}
+.Homedoctors .swiper-pagination .swiper-pagination-bullet{
+    
+}
+.Homedoctors .swiper-container{  
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.Homedoctors  .swiper-wrapper {
+    display: flex !important;
+    gap: 0rem !important;
+    margin: 0  auto !important;
+}
+
+.Homedoctors .swiper-pagination{
+    /* margin-top: 30px; */
+    position: relative !important;
+    order: 2 !important;
+    margin: 0 auto !important;
+    cursor: pointer !important;
+}
+
